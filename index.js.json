@@ -1,6 +1,6 @@
 {
-	"pid": 24316,
-	"date": "2024-10-15T08:45:04.964Z",
+	"pid": 17944,
+	"date": "2024-10-18T02:29:11.065Z",
 	"port": 5000,
 	"ip": "0.0.0.0",
 	"stats": [
@@ -12,12 +12,12 @@
 				"build": 4081,
 				"app": "1.0.0"
 			},
-			"pid": 24316,
+			"pid": 17944,
 			"thread": "",
 			"mode": "debug",
 			"overload": 0,
-			"date": "2024-10-15T10:51:06.265Z",
-			"memory": 9.1,
+			"date": "2024-10-18T07:32:24.813Z",
+			"memory": 9.52,
 			"rm": 0,
 			"fm": 0,
 			"wm": 0,
@@ -32,16 +32,16 @@
 			"dbrm": 0,
 			"dbwm": 0,
 			"usage": 0,
-			"requests": 63,
+			"requests": 135,
 			"pending": 0,
 			"external": 0,
-			"errors": 2,
+			"errors": 1,
 			"timeouts": 0,
 			"online": 0,
-			"uptime": 127,
+			"uptime": 282,
 			"download": 0,
-			"upload": 0.012,
-			"lasterror": "2024-10-15T10:02:17.664Z unknown - Error: View \"layouts/admin\": import(admin.css) - Line: 0 - admin is not defined\n    at ControllerProto.$viewrender (D:\\react_learning\\Website_Bootcamp-main\\node_modules\\@snipkode\\server\\index.js:15482:9)\n    at ControllerProto.view (D:\\react_learning\\Website_Bootcamp-main\\node_modules\\@snipkode\\server\\index.js:15410:14)\n    at ControllerProto.$viewrender (D:\\react_learning\\Website_Bootcamp-main\\node_modules\\@snipkode\\server\\index.js:15650:16)\n    at ControllerProto.view (D:\\react_learning\\Website_Bootcamp-main\\node_modules\\@snipkode\\server\\index.js:15410:14)\n    at Controller.<anonymous> (D:\\react_learning\\Website_Bootcamp-main\\index.js:12:8)\n    at PROTO.$total_execute2 (D:\\react_learning\\Website_Bootcamp-main\\node_modules\\@snipkode\\server\\index.js:17458:31)\n    at PROTO.$total_execute (D:\\react_learning\\Website_Bootcamp-main\\node_modules\\@snipkode\\server\\index.js:17423:10)\n    at PROTO.$total_prepare (D:\\react_learning\\Website_Bootcamp-main\\node_modules\\@snipkode\\server\\index.js:17757:9)\n    at PROTO.$total_end (D:\\react_learning\\Website_Bootcamp-main\\node_modules\\@snipkode\\server\\index.js:17339:9)\n    at F.$requestcontinue (D:\\react_learning\\Website_Bootcamp-main\\node_modules\\@snipkode\\server\\index.js:9308:9)",
+			"upload": 0.023,
+			"lasterror": "2024-10-18T02:29:27.062Z unknown - Error: View \"pages/landingpage\" not found.\n    at ControllerProto.$viewrender (D:\\react_learning\\git\\skt-web-bootcamp\\node_modules\\@snipkode\\server\\index.js:15445:9)\n    at ControllerProto.view (D:\\react_learning\\git\\skt-web-bootcamp\\node_modules\\@snipkode\\server\\index.js:15410:14)\n    at Controller.<anonymous> (D:\\react_learning\\git\\skt-web-bootcamp\\index.js:4:8)\n    at PROTO.$total_execute2 (D:\\react_learning\\git\\skt-web-bootcamp\\node_modules\\@snipkode\\server\\index.js:17458:31)\n    at PROTO.$total_execute (D:\\react_learning\\git\\skt-web-bootcamp\\node_modules\\@snipkode\\server\\index.js:17423:10)\n    at PROTO.$total_prepare (D:\\react_learning\\git\\skt-web-bootcamp\\node_modules\\@snipkode\\server\\index.js:17757:9)\n    at PROTO.$total_end (D:\\react_learning\\git\\skt-web-bootcamp\\node_modules\\@snipkode\\server\\index.js:17339:9)\n    at F.$requestcontinue (D:\\react_learning\\git\\skt-web-bootcamp\\node_modules\\@snipkode\\server\\index.js:9308:9)\n    at F.listener (D:\\react_learning\\git\\skt-web-bootcamp\\node_modules\\@snipkode\\server\\index.js:8990:6)\n    at Server.emit (node:events:519:28)",
 			"status": []
 		}
 	]
