@@ -6,11 +6,15 @@
 </h2-->   <!--call symbol from googleapis-->
 
 <div class="header"></div>
-<div class="sidebar"></div>
+<div class="sidebar">
+    
+    @{view("components/sidebar")}
+</div>
 <div class="main">
     <div class="grid-col-12">
-        @{view("components/card", {class:'background-linear',btnclass:'button-primary'})}
-        @{view("components/card", {class:'background-linear-navy',btnclass:'button-secondary'})}
+        @{view("components/card", {class:'background-linear',btnclass:'button-primary',title:'Semua Buku',total:'12',path:'/Buku'})}
+        @{view("components/card", {class:'background-linear-navy',btnclass:'button-secondary',title:'Semua Penerbit',total:15609,path:'/Penerbit'})}
+        @{view("components/card", {class:'background-linear-purple',btnclass:'button-third',title:'Semua Pengguna',total:12987123,path:'/Pengguna'})}
         <!-- <div class="card background-linear">
             <div class="flex">
                 <i class="material-symbols-outlined icon-white">library_books</i>
