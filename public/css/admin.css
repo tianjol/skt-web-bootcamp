@@ -94,6 +94,34 @@ ul.navigation >li{
     justify-content: space-between;
 }
 
+.card:nth-child(1){
+    grid-area: col1;
+}
+.card:nth-child(2){
+    grid-area: col2;
+}
+.card:nth-child(3){
+    grid-area: col3;
+}
+.card:nth-child(4){
+    grid-area: col4;
+}
+.card:nth-child(5){
+    grid-area: col4;
+}
+.card:nth-child(6){
+    grid-area: col4;
+}
+.card:nth-child(7){
+    grid-area: col4;
+}
+.card:nth-child(8){
+    grid-area: col5;
+}
+.card:nth-child(9){
+    grid-area: col6;
+}
+
 .icon-white{
     color: white;
     font-size: 32px !important; /*default google 24px dan mesti diimportance agar bisa berubah*/
