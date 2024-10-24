@@ -107,19 +107,19 @@ ul.navigation >li{
     grid-area: col4;
 }
 .card:nth-child(5){
-    grid-area: col4;
-}
-.card:nth-child(6){
-    grid-area: col4;
-}
-.card:nth-child(7){
-    grid-area: col4;
-}
-.card:nth-child(8){
     grid-area: col5;
 }
-.card:nth-child(9){
+.card:nth-child(6){
     grid-area: col6;
+}
+.card:nth-child(7){
+    grid-area: col7;
+}
+.card:nth-child(8){
+    grid-area: col8;
+}
+.card:nth-child(9){
+    grid-area: col9;
 }
 
 .icon-white{
@@ -170,16 +170,19 @@ ul.navigation >li{
     color: inherit; /*dia harus mewarisi warna parent element */
 }
 
-.button-primary{
+.btn-primary{
     background-color: #004833;
 }
-.button-secondary{
+.btn-secondary{
     background: #000E36;
 }
-.button-third{
+.btn-third{
     background: #2D0029;
-
 }
+.btn-purple{
+    background: #390634;
+}
+
 
 .background-linear{
     /* background: rgb(2, 0, 36); */
